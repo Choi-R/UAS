@@ -38,9 +38,9 @@ class Reversal extends Thread
         {
             e.printStackTrace();
         }
-        finally //bagian kode yang dijalan sukses maupun gagal
+        finally
         {
-            try //kenapa mesti ditry dan catch lagi supaya handling ioexception lagi
+            try
             {
                 socket.close();
             }

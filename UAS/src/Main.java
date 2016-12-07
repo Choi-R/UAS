@@ -91,20 +91,6 @@ class Main extends JFrame
         {
             public void actionPerformed(ActionEvent arg0)
             {
-                /*
-                try
-                {
-                    String addr = JOptionPane.showInputDialog("Enter IP address of the server: ");
-                    Socket s = new Socket (addr,1234);
-                    BufferedReader in = new BufferedReader(new InputStreamReader(s.getInputStream()));
-                    answer = Double.parseDouble(in.readLine());
-                    System.out.println(answer);
-                }
-                catch (Exception ioe)
-                {
-                    ioe.printStackTrace();
-                }
-                */
                 timer.start();
                 l31panel1.setText("1 "+cb2panel1.getSelectedItem().toString());
                 b2panel1.setEnabled(false);
